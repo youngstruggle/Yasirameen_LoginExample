@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc_1"
+    tools:context="nana.com.yasirameen_loginexample.RegisterAccountActivity">
+
+    <View
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:alpha="0.6"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/txt_success_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/CreateAccount"
+        android:textColor="@color/colorWhite"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/AfterClick"
+        android:id="@+id/textView6"
+        android:textColor="@color/colorWhite"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/txt_success_name"
+        android:layout_alignRight="@+id/txtname_reg"
+        android:layout_alignEnd="@+id/txtname_reg"
+        android:layout_alignLeft="@+id/txtname_reg"
+        android:layout_alignStart="@+id/txtname_reg"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <EditText
+        android:id="@+id/txtname_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EnterUserName"
+        android:textColor="@color/colorWhite"
+        android:drawablePadding="10dp"
+        android:textColorHint="#cccccc"
+        android:drawableLeft="@drawable/ic_contacts_white_24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/textView"
+        android:layout_below="@id/txt_success_name"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/txtemail_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="#cccccc"
+        android:hint="@string/EnterUserEmail"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_email_white_24dp"
+        android:layout_below="@+id/txtname_reg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/txtpass_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="@string/EnterUserPasswrod"
+        android:singleLine="true"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="#cccccc"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_secure_key"
+        android:layout_below="@+id/txtemail_reg"
+        android:layout_alignLeft="@+id/txtemail_reg"
+        android:layout_alignStart="@+id/txtemail_reg"
+        android:layout_alignRight="@+id/txtemail_reg"
+        android:layout_alignEnd="@+id/txtemail_reg"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/txtmobile_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#cccccc"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_phone_white_24dp"
+        android:layout_below="@+id/txtpass_reg"
+        android:layout_alignLeft="@+id/txtpass_reg"
+        android:layout_alignStart="@+id/txtpass_reg"
+        android:layout_alignRight="@+id/txtpass_reg"
+        android:layout_alignEnd="@+id/txtpass_reg"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:background="@drawable/blue_btn_rectangle_drawable_normal"
+        android:layout_below="@+id/txtmobile_reg"
+        android:layout_alignLeft="@+id/txtmobile_reg"
+        android:layout_alignStart="@+id/txtmobile_reg"
+        android:layout_alignRight="@+id/txtmobile_reg"
+        android:layout_alignEnd="@+id/txtmobile_reg"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+</RelativeLayout>

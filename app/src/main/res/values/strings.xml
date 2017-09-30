@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Yasirameen_LoginUI</string>
+    <string name="HeaderLogin">LOGIN</string>
+    <string name="HeaderTo">To</string>
+    <string name="HeaderYourAccount">Your Account</string>
+    <string name="EnterUserName">Enter User Name</string>
+    <string name="EnterUserEmail">Enter User Email</string>
+    <string name="EnterUserPasswrod">Enter User Password</string>
+    <string name="AreU">Are you new? Sign up now.</string>
+    <string name="CreateAccount">Create Account</string>
+    <string name="EnterMobile">Enter Your Mobile</string>
+    <string name="AfterClick">After clicking the Register Button. You will be redirected to Login Screen"</string>
+    <string name="SigIn">SIGN IN</string>
+    <string name="SigInWithGoogle">SIGN IN WITH GOOGLE</string>
+    <string name="OnlyText">Android | Lollipop | Material | Yasir | Ameen | Login | Design | Activity | Blog | Facebook | Google | Kitkat | Marshmallow | Google"</string>
+</resources>
